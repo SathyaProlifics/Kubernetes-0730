@@ -33,6 +33,3 @@ spec:
         # Docker image to use for this container
         image: nginx:latest
         # Ports exposed by this container
-        ports:
-        # Container listens on port 81
-        - containerPort: 81
