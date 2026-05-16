@@ -15,7 +15,7 @@ spec:
     # Labels that must match for pods to be managed by this ReplicaSet
     matchLabels:
       # Label key-value pair for matching pods
-      app: nginx
+      app: nginxrs
   # Template for creating pods managed by this ReplicaSet
   template:
     # Metadata for the pods created from this template
@@ -23,7 +23,7 @@ spec:
       # Labels applied to each pod created from this template
       labels:
         # Label indicating this pod runs an nginx application
-        app: nginx
+        app: nginxrs
     # Specification for the pods
     spec:
       # List of containers in each pod
