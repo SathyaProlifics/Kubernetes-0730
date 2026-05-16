@@ -9,7 +9,7 @@ metadata:
 # Specification section defines the desired state of the Deployment
 spec:
   # Number of pod replicas to maintain
-  replicas: 3
+  replicas: 10
   # Selector used to identify which pods this Deployment manages
   selector:
     # Labels that must match for pods to be managed by this Deployment
